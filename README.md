@@ -13,7 +13,7 @@ $ conda activate chatbot
 ```yaml
 $ pip install requirements.txt
 ```
-- Override Streamlit package with this [wheel](https://core-previews.s3-us-west-2.amazonaws.com/pr-9491/streamlit-1.39.0-py2.py3-none-any.whl). At the time of building this repo, Streamlit ```st.chat_input``` didn't have the capability for image or file: 
+- Override Streamlit package with this [wheel](https://core-previews.s3-us-west-2.amazonaws.com/pr-9491/streamlit-1.39.0-py2.py3-none-any.whl). At the time of building this repo, Streamlit ```st.chat_input``` didn't have the capability to upload image or file: 
 ```yaml
 $ pip install --force-reinstall -v streamlit-1.39.0-py2.py3-none-any.whl
 ```
